@@ -103,7 +103,7 @@ const Header = ({ setPage }) => {
           </div>
         )}
 
-        <div className="flex border-l-[1px] dark:border-slate-700 m-2 pl-1 space-x-4 md:space-x-2">
+        <div className="flex border-l-[1px] dark:border-slate-700 m-2 pl-1 space-x-2 md:space-x-4">
           <button onClick={toggleTheme}>
             <Icon sun>
               {theme === "dark" ? (
