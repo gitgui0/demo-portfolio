@@ -116,7 +116,7 @@ const Header = ({ setPage }) => {
 
           <button
             onClick={setPage}
-            className="flex justify-center px-2 sm:px-4 items-center rounded-md bg-violet-600 dark:bg-violet-800 text-white text-sm sm:text-base font-semibold dark:text-stone-100 hover:bg-violet-800 dark:hover:bg-violet-600 duration-200"
+            className="hidden sm:flex justify-center px-2 sm:px-4 items-center rounded-md bg-violet-600 dark:bg-violet-800 text-white text-sm sm:text-base font-semibold dark:text-stone-100 hover:bg-violet-800 dark:hover:bg-violet-600 duration-200"
           >
             <p className="select-none">Hire Me</p>
           </button>
