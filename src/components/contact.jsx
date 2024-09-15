@@ -18,7 +18,7 @@ const Contact = ({ setPage }) => {
             contact me
           </span>{" "}
           anytime to discuss your project or ask any questions. I look forward
-          to working with you!
+          to working with you.
         </p>
       </div>
     </div>
