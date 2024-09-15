@@ -25,7 +25,7 @@ const Header = ({ setPage }) => {
       style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}
     >
       <div className="relative flex p-2 md:p-1 justify-between lg:justify-around items-center header">
-        <div className="pr-3 md:border-r-[1px] dark:border-slate-700 flex space-x-4 md:space-x-2">
+        <div className="pr-3 md:border-r-[1px] dark:border-slate-700 flex space-x-1 md:space-x-4">
           <a href="#home">
             <Icon tooltip="Home">
               <HomeIcon className="icon" />

@@ -17,7 +17,7 @@ const Home = ({ setPage }) => {
         />
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row space-y-2">
-        <div className="flex-1 flex flex-col w-3/5 md:w-full space-y-6 text-center mt-3 md:mt-0 md:text-left">
+        <div className="flex-1 flex flex-col  w-4/5 md:w-full space-y-6 text-center mt-3 md:mt-0 md:text-left">
           <div className="space-y-2">
             <h1 className="text font-bold text-4xl">I'm Diogo</h1>
             <p className="text-light">
@@ -29,11 +29,11 @@ const Home = ({ setPage }) => {
           <div className="flex space-x-1 sm:space-x-4 justify-center md:justify-normal">
             <button
               onClick={setPage}
-              className="flex justify-center px-2 sm:px-4 py-2 items-center rounded-md bg-violet-600 border dark:border-transparent dark:bg-violet-800 text-white font-semibold dark:text-stone-100 hover:bg-violet-800 dark:hover:bg-violet-600 duration-200"
+              className="flex justify-center px-2 md:px-4 py-2 items-center rounded-md bg-violet-600 border dark:border-transparent dark:bg-violet-800 text-white font-semibold dark:text-stone-100 hover:bg-violet-800 dark:hover:bg-violet-600 duration-200"
             >
               <p className="select-none">Hire Me</p>
             </button>
-            <button className="flex justify-center space-x-1 px-2 sm:px-4 py-2 items-center rounded-md bg-white hover:bg-slate-100 dark:border-slate-700 border-[1.5px] dark:hover:bg-slate-700 dark:bg-transparent text-white font-semibold dark:text-stone-100 duration-200">
+            <button className="flex justify-center space-x-1 px-2 md:px-4 py-2 items-center rounded-md bg-white hover:bg-slate-100 dark:border-slate-700 border-[1.5px] dark:hover:bg-slate-700 dark:bg-transparent text-white font-semibold dark:text-stone-100 duration-200">
               <Square2StackIcon className="h-4 w-4 text" />
               <p className="text select-none">Copy Email</p>
             </button>
